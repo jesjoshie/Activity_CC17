@@ -17,7 +17,7 @@
     <ImageView
         android:id="@+id/formLogo"
         android:layout_width="match_parent"
-        android:layout_height="290dp"
+        android:layout_height="280dp"
         android:scaleType="fitStart"
         android:src="@drawable/game" />
 
@@ -28,11 +28,23 @@
         android:layout_above="@+id/home_btn"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="209dp"
-        android:layout_marginRight="209dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginRight="217dp"
+        android:layout_marginBottom="73dp"
         android:scaleType="fitStart"
         android:src="@drawable/dota2" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="163dp"
+        android:layout_above="@+id/home_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="219dp"
+        android:layout_marginRight="219dp"
+        android:layout_marginBottom="-74dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/csgo" />
 
 
     <ImageView
@@ -41,9 +53,21 @@
         android:layout_above="@+id/home_btn"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="9dp"
-        android:layout_marginRight="9dp"
-        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="-70dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/comming" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="163dp"
+        android:layout_above="@+id/home_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="75dp"
         android:scaleType="fitStart"
         android:src="@drawable/valorant" />
 
@@ -63,7 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="10dp"
-        android:paddingTop="260dp"
+        android:paddingTop="240dp"
         android:paddingEnd="10dp"
         android:text="ACTIVE GAMES"
         android:textColor="@color/white"
@@ -86,17 +110,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/ic_homebutton" />
 
-    <Button
-        android:id="@+id/add_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="160dp"
-        android:layout_marginRight="160dp"
-        android:layout_marginBottom="14dp"
-        android:background="@drawable/ic_addbutton" />
+
 
     <Button
         android:id="@+id/settings_btn"
