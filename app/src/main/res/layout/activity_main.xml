@@ -89,7 +89,7 @@
 
 
             <Button
-                android:id="@+id/imageButton2"
+                android:id="@+id/loginBtn"
                 android:layout_width="153dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
@@ -99,7 +99,7 @@
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/signupBtn"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
