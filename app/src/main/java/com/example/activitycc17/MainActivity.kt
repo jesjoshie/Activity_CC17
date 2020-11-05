@@ -3,7 +3,6 @@ package com.example.activitycc17
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
     private  fun signup(){
-        val intent1 = Intent(this,Signup::class.java)
+        val intent1 = Intent(this,MainActivity2::class.java)
         startActivity(intent1)
 
     }
