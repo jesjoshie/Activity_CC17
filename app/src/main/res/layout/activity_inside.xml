@@ -16,60 +16,61 @@
 
     <ImageView
         android:id="@+id/formLogo"
-        android:layout_width="match_parent"
+        android:layout_width="500dp"
         android:layout_height="280dp"
         android:scaleType="fitStart"
         android:paddingTop="60dp"
         android:src="@drawable/game" />
 
 
-    <ImageButton
-        android:layout_width="154dp"
-        android:layout_height="94dp"
+    <Button
+        android:id="@+id/dotaBtn"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/home_btn"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="235dp"
-        android:layout_marginRight="235dp"
-        android:layout_marginBottom="229dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginRight="234dp"
+        android:layout_marginBottom="228dp"
         android:scaleType="fitStart"
-        android:src="@drawable/dota2" />
+        android:text="CAMERA" />
 
-    <ImageButton
-        android:layout_width="164dp"
-        android:layout_height="86dp"
+    <Button
+        android:id="@+id/csgobtn"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="238dp"
+        android:layout_marginRight="238dp"
+        android:layout_marginBottom="54dp"
+        android:scaleType="fitStart" />
+
+    <Button
+        android:id="@+id/jstBtn"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
+        android:layout_marginBottom="126dp"
+        android:scaleType="fitStart" />
+
+    <Button
+        android:id="@+id/valoBtn"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
         android:layout_above="@+id/home_btn"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_marginEnd="233dp"
         android:layout_marginRight="233dp"
-        android:layout_marginBottom="109dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/csgo" />
-
-    <ImageButton
-        android:layout_width="176dp"
-        android:layout_height="94dp"
-        android:layout_above="@+id/home_btn"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
-        android:layout_marginBottom="102dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/comming" />
-
-    <ImageButton
-        android:layout_width="146dp"
-        android:layout_height="86dp"
-        android:layout_above="@+id/home_btn"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="236dp"
-        android:scaleType="fitStart"
-        android:src="@drawable/valorant" />
+        android:layout_marginBottom="171dp"
+        android:scaleType="fitStart" />
 
     <TextView
         android:layout_width="match_parent"
@@ -87,9 +88,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="10dp"
-        android:paddingTop="240dp"
+        android:paddingTop="285dp"
         android:paddingEnd="10dp"
-        android:text="ACTIVE GAMES"
+        android:text="EXTERNAL APP"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.activitycc17">
 
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ActivityCC17">
-        <activity android:name=".MainActivity3"></activity>
-        <activity android:name=".picture" />
+        <activity android:name=".ImplicitIntentDemo"></activity>
+        <activity android:name=".ImplicitIntent" />
         <activity android:name=".MainActivity2" />
         <activity android:name=".insideActivity" />
         <activity android:name=".MainActivity">
