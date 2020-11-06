@@ -16,7 +16,7 @@ class MainActivity2 : AppCompatActivity() {
     }
 
     private fun login() {
-        val intent = Intent(this, ImplicitIntent::class.java)
+        val intent = Intent(this, ImplicitIntentDemo::class.java)
         intent.putExtra("extraData","")
         startActivity(intent)
     }
